@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/II anno/TNDS/Esercizi Miei/Lezione_8_9'
+ 
+make: *** No rule to make target `esercizio8.4.cpp', needed by `esercizio8.0'.
+
+make: Leaving directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/II anno/TNDS/Esercizi Miei/Lezione_8_9'
+ 

@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/II anno/TNDS/Esercizi Miei/TEMI ESAME/esame1'
+g++ -o esame appello2.cpp  -g -Wall --pedantic -std=c++23
+make: Leaving directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/II anno/TNDS/Esercizi Miei/TEMI ESAME/esame1'
+ 

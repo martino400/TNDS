@@ -1,0 +1,316 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Thu Jan 15 11:59:09 2026
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+JUPYTER_PATH = /opt/homebrew/opt/root/etc/notebook
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/carlagariboldi/Documents/MARTINO/UNIMI/II anno/TNDS/Esercizi Miei/TEMI ESAME/esame4
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"en-gb","osLocale":"en-it","resolvedLanguage":"en","defaultMessagesFile":"/Applications/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}
+# environment
+_ = /usr/bin/make
+# environment
+_CONDA_EXE = /Users/carlagariboldi/miniconda3/bin/conda
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 2)
+CXXFLAGS := `root-config --cflags` -g3 -Wall --pedantic -std=c++20
+# environment
+ROOTSYS = /opt/homebrew/opt/root
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Users/carlagariboldi/miniconda3/bin:/Users/carlagariboldi/miniconda3/condabin:/opt/homebrew/Cellar/root/6.34.08/bin:/opt/homebrew/Cellar/root/6.34.08/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+# environment
+JUPYTER_CONFIG_DIR = /opt/homebrew/opt/root/etc/notebook
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+CMAKE_PREFIX_PATH = /opt/homebrew/opt/root
+# environment
+SHLIB_PATH = /opt/homebrew/Cellar/root/6.34.08/lib/root:/opt/homebrew/Cellar/root/6.34.08/lib/root
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.0AA0y7HSzp/Listeners
+# environment
+CLING_STANDARD_PCH = none
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /Users/carlagariboldi/miniconda3/bin/conda
+# environment
+PWD = /Users/carlagariboldi/Documents/MARTINO/UNIMI/II anno/TNDS/Esercizi Miei/TEMI ESAME/esame4
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/Cellar/root/6.34.08/share/man:/opt/homebrew/Cellar/root/6.34.08/share/man:/opt/homebrew/share/man:/System/Cryptexes/App/usr/share/man:/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man
+# environment
+HOME = /Users/carlagariboldi
+# environment
+LD_LIBRARY_PATH = /opt/homebrew/Cellar/root/6.34.08/lib/root:/opt/homebrew/Cellar/root/6.34.08/lib/root
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/carlagariboldi/Library/Application Support/Code/CachedData/585eba7c0c34fd6b30faac7c62a42050bfbc0086
+# environment
+LOGNAME = carlagariboldi
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+LIBPATH = /opt/homebrew/Cellar/root/6.34.08/lib/root:/opt/homebrew/Cellar/root/6.34.08/lib/root
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = carlagariboldi
+# makefile
+.DEFAULT_GOAL := esame
+# environment
+APPLICATION_INSIGHTS_NO_STATSBEAT = true
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/8z/vj2dlm3d64bdd2btjgmhm97h0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/carlagariboldi/Library/Application Support/Code/1.10-main.sock
+# environment
+MallocNanoZone = 0
+# environment
+PYTHONPATH = /opt/homebrew/Cellar/root/6.34.08/lib/root:/opt/homebrew/Cellar/root/6.34.08/lib/root
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.55786549.55786555
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+_CONDA_ROOT = /Users/carlagariboldi/miniconda3
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /Users/carlagariboldi/miniconda3/bin/python
+# makefile (from `Makefile', line 1)
+LIBS := `root-config --libs`
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_PREFIX = /Users/carlagariboldi/miniconda3
+# environment
+VSCODE_PID = 91460
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=83/1024=8%, Rehash=0, Collisions=2/106=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777231, inode 24263678): 20 files, no impossibilities.
+
+# 20 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+appello4.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+funzionebase.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+integral.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Esperimento.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2025-01-22 17:56:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+RandomGen.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+gplot++.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+esame: appello4.cpp VectorOperations.h FunzioneVettoriale.h gplot++.h funzionebase.h fmtlib.h RandomGen.h Esperimento.h integral.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 5):
+	g++ -o esame appello4.cpp  ${CXXFLAGS} ${LIBS}
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+VectorOperations.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+FunzioneVettoriale.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 8):
+	rm -f *.o
+	
+
+# Not a target:
+fmtlib.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=15/1024=1%, Rehash=0, Collisions=0/36=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Thu Jan 15 11:59:09 2026
+
+ 
+make: *** No rule to make target `all'.  Stop.
+

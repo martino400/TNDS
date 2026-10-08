@@ -1,0 +1,309 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Sun Oct 20 18:38:56 2024
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+JUPYTER_PATH = /opt/homebrew/opt/root/etc/notebook
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/carlagariboldi/Documents/MARTINO/UNIMI/II anno/TNDS/Lezione 2
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","osLocale":"en-it","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 1)
+CXXFLAGS = -g3 -Wall --pedantic -std=c++20
+# environment
+ROOTSYS = /opt/homebrew/opt/root
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/Cellar/root/6.32.06/bin:/opt/homebrew/Cellar/root/6.32.06/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+# environment
+JUPYTER_CONFIG_DIR = /opt/homebrew/opt/root/etc/notebook
+# environment
+LaunchInstanceID = EED60CB0-D7F0-4E0C-AA1E-357B4220CE94
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+CMAKE_PREFIX_PATH = /opt/homebrew/opt/root
+# environment
+SHLIB_PATH = /opt/homebrew/Cellar/root/6.32.06/lib/root:/opt/homebrew/Cellar/root/6.32.06/lib/root
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.z83UoCViyw/Listeners
+# environment
+CLING_STANDARD_PCH = none
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /Users/carlagariboldi/Documents/MARTINO/UNIMI/II anno/TNDS/Lezione 2
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/Cellar/root/6.32.06/share/man:/opt/homebrew/Cellar/root/6.32.06/share/man:/opt/homebrew/share/man:/System/Cryptexes/App/usr/share/man:/usr/share/man:/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/carlagariboldi
+# environment
+LD_LIBRARY_PATH = /opt/homebrew/Cellar/root/6.32.06/lib/root:/opt/homebrew/Cellar/root/6.32.06/lib/root
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/carlagariboldi/Library/Application Support/Code/CachedData/e7e037083ff4455cf320e344325dacb480062c3c
+# environment
+LOGNAME = carlagariboldi
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+LIBPATH = /opt/homebrew/Cellar/root/6.32.06/lib/root:/opt/homebrew/Cellar/root/6.32.06/lib/root
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = carlagariboldi
+# makefile
+.DEFAULT_GOAL := esercizio2.2
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/8z/vj2dlm3d64bdd2btjgmhm97h0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/carlagariboldi/Library/Application Support/Code/1.83-main.sock
+# environment
+MallocNanoZone = 0
+# environment
+PYTHONPATH = /opt/homebrew/Cellar/root/6.32.06/lib/root:/opt/homebrew/Cellar/root/6.32.06/lib/root
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.7000488.7000494
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 186ab
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 1239
+# variable set hash-table stats:
+# Load=75/1024=7%, Rehash=0, Collisions=1/98=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777233, inode 17858301): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Vettore.o: Vettore.cpp Vettore.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 10):
+	g++ -c -o Vettore.o Vettore.cpp
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2024-10-08 15:07:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+funzioni.o: funzioni.cpp funzioni.h Vettore.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 6):
+	g++ -c -o funzioni.o funzioni.cpp
+	
+
+# Not a target:
+esercizio2.2.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Vettore.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 13):
+	rm *.o
+	
+
+# Not a target:
+Vettore.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+funzioni.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+esercizio2.2: esercizio2.2.o Vettore.o funzioni.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 4):
+	g++ -o esercizio2.2 esercizio2.2.o Vettore.o funzioni.o 
+	
+
+# Not a target:
+funzioni.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+esercizio2.2.o: esercizio2.2.cpp funzioni.h Vettore.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 8):
+	g++ -c -o esercizio2.2.o esercizio2.2.cpp
+	
+
+ 
+make: *** No rule to make target `all'.  Stop.
+
+cleanall: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 15):
+	rm esercizio2.2
+	
+
+# files hash-table stats:
+# Load=15/1024=1%, Rehash=0, Collisions=0/39=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Oct 20 18:38:56 2024
+
+ 

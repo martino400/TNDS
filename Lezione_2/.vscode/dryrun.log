@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/II anno/TNDS/Lezione 2'
+g++ -c -o esercizio2.2.o esercizio2.2.cpp
+g++ -c -o Vettore.o Vettore.cpp
+g++ -c -o funzioni.o funzioni.cpp
+g++ -o esercizio2.2 esercizio2.2.o Vettore.o funzioni.o 
+make: Leaving directory `/Users/carlagariboldi/Documents/MARTINO/UNIMI/II anno/TNDS/Lezione 2'
+ 

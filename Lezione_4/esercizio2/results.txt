@@ -1,0 +1,4 @@
+Valore di e/m dal fit = 1.76124e+11  +/-  3.19767e+10
+Valore del chi2 del fit = 0.524845
+          prob del chi2 = 1
+Valore del chi2 ridotto = 0.0403727
